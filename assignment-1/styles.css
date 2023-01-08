@@ -1,0 +1,282 @@
+*{
+    margin: 0;
+    font-family: 'Work Sans', sans-serif;
+
+}
+
+/* header*/
+.banner{
+    margin: 0;
+    display: flex;
+    position: absolute;
+}
+
+.banner-title{
+font-weight: 700;
+font-size: 65px;
+line-height: 76px;
+text-align: right;
+color: #151414;
+position: absolute;
+width: 525px;
+height: 228px;
+left: 845px;
+top: 216px;
+margin-bottom: 24px;
+}
+
+.banner-desc{
+font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+color: #444343;
+width: 494px;
+height: 78px;
+left: 876px;
+top: 468px;
+position: absolute;
+margin-bottom: 32px;
+}
+.btn-contact{
+    position: absolute;
+    width: 160px;
+    height: 64px;
+    left: 1210px;
+    top: 578px;
+    color: white;
+    background-color: orangered;
+}
+
+/* main */
+
+.fail{
+    position: absolute;
+    display: flex;
+    margin-top: 939px;
+    margin-right: 825px;
+    margin-left: 206px;
+   
+
+}
+
+.fail-title{
+    position: absolute;
+    width: 288px;
+    height: 200px;
+    left: 600px;
+    margin-top: 220px;
+    margin-bottom: 20px;
+    
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    color: #151414;
+
+
+}
+.fail-desc{
+    position: absolute; 
+    font-size: 16px;
+    line-height: 26px;
+    color: #444343;
+    width: 416px;
+    height: 100px;
+    left: 600px;
+    top: 350px;
+    margin-bottom: 16px;
+    
+
+
+
+}
+.fail ul{
+    position: absolute;
+    width: 349px;
+    height: 162px;
+    left: 580px;
+    top: 480px;
+}
+ul {
+    list-style-type: none;
+  }
+  
+  ul li::before {
+    content: "✓";
+    color: green;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+  }
+
+  /* my plans */
+
+  .my-plans{
+    position: absolute;
+    margin-top: 130px;
+    width: 1141px;
+    height: 299.96px;
+    left: 50px;
+    top: 1650px;
+    display: flex;
+    
+   
+  }
+
+  .plan-header{
+    
+    position: absolute;
+    width: 179px;
+    height: 47px;
+    left: 711px;
+    top: 0px;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    color: #151414;
+  }
+
+  .plan-web{
+    position: absolute;
+    width: 437px;
+    height: 185.3px;
+    left: 200px;
+    top: 100px;
+    padding: 20px;
+  }
+  .plan-js{
+    position: absolute;
+    width: 437px;
+    height: 185.3px;
+    left: 500px;
+    top: 100px;
+    padding: 20px;
+  }
+
+  .plan-smoke{
+    position: absolute;
+    width: 437px;
+    height: 185.3px;
+    left: 800px;
+    top: 100px;
+    padding: 20px;
+  }
+  .plan-ecom{
+    position: absolute;
+    width: 437px;
+    height: 185.3px;
+    left: 1100px;
+    top: 100px;
+    padding: 20px;
+  }
+  .plan-title{
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 35px;
+    text-align: left;
+    color: #151414;
+    padding: 10px;
+
+  }
+
+ .call{
+    position: absolute;
+    width: 1140px;
+    height: 300px;
+    left: 230px;
+    top: 2222.26px;
+    /*background-image: url(./images/gradient.png);*/
+    padding-bottom: 50px;
+    margin-bottom: 130px;
+
+ }
+
+ .call-title{
+    position: absolute;
+width: 459px;
+height: 94px;
+left: 77px;
+top: 77px;
+font-weight: 700;
+font-size: 40px;
+line-height: 47px;
+color: white;
+ }
+ #call-btn{
+    position: absolute;
+    width: 160px;
+    height: 64px;
+    left: 90px;
+    top: 190px;
+    color: orangered;
+    background-color: white;
+ }
+
+
+footer{
+    background-color: black;
+    color: white;
+    position: absolute;
+    position: absolute;
+    width: 1600px;
+    height: 577px;
+    left: 0px;
+    top: 2652.26px;
+   }
+
+ .aboutus{
+    position: absolute;
+    width: 485px;
+    height: 317px;
+    left: 230px;
+    top: 82.26px;
+
+ }
+   
+
+ .au-title{
+font-weight: 700;
+font-size: 45px;
+line-height: 53px;
+color: #F8F8F8;
+margin-bottom: 16px;
+ }
+ .au-desc{
+    
+    font-size: 16px;
+    line-height: 26px;
+    color: #FFFFFF;
+    text-align: left;
+    margin-bottom: 30px;
+ }
+
+.sub{
+  
+position: absolute;
+width: 325px;
+height: 204px;
+left: 1000px;
+top: 85px;
+font-weight: 600;
+font-size: 15px;
+line-height: 19px;
+color: #FFFFFF;
+}
+
+input {
+    width: 70%;
+    padding: 10px;
+    margin: 10px;
+    background-color: black;
+    color: white;
+    border-color: white;
+    border-radius: 5%;
+   
+  }
+
+#btn-sub{
+    background-color: white;
+    color: orange;
+    width: 30%;
+    border: none;
+    border-radius: 5%;
+}
