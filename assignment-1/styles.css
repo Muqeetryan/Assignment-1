@@ -175,8 +175,10 @@ ul {
     text-align: left;
     color: #151414;
     padding: 10px;
+    }
 
-  }
+        /* watch section*/
+
 
  .call{
     position: absolute;
@@ -192,16 +194,16 @@ ul {
 
  .call-title{
     position: absolute;
-width: 459px;
-height: 94px;
-left: 77px;
-top: 77px;
-font-weight: 700;
-font-size: 40px;
-line-height: 47px;
-color: white;
+    width: 459px;
+    height: 94px;
+    left: 77px;
+    top: 77px;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    color: white;
  }
- #call-btn{
+#call-btn{
     position: absolute;
     width: 160px;
     height: 64px;
@@ -210,6 +212,8 @@ color: white;
     color: orangered;
     background-color: white;
  }
+
+ /* footer left */
 
 
 footer{
@@ -248,6 +252,10 @@ margin-bottom: 16px;
     text-align: left;
     margin-bottom: 30px;
  }
+
+
+/* footer right*/
+
 
 .sub{
   
